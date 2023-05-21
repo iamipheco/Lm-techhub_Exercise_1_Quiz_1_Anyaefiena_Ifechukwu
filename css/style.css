@@ -23,10 +23,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body {
-	width: 100%;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -57,7 +53,8 @@ table {
 }
 
 body {
-	background-color: rgb(237, 235, 231);
+	width: 100%;
+	background-color: white;
 	line-height: 1.5;
 }
 
