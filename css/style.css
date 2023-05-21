@@ -23,11 +23,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-	width: 100%;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -51,3 +46,60 @@ table {
 
 
 /* Write your css below here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background-color: white;
+	line-height: 1.5;
+}
+
+.container {
+	height: 70vh;
+	width: 80%;
+	margin: auto;
+	display: grid;
+}
+
+.top-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+	padding-top: 100px;
+	
+}
+
+.bottom-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.image-container img.tech1,
+.image-container img.tech2 {
+	width: 600px;
+	height: 335px;
+}
+
+.image-container img.tech3,
+.image-container img.tech4,
+.image-container img.tech5 {
+	width: 100%;
+	height: 240px;
+}
+
+.text-container h2 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 22px;
+ }
+ 
+ .text-container p {
+	 font-family: Arial, Helvetica, sans-serif;
+	 color: dimgrey;
+ }
